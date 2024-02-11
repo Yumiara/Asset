@@ -1,1 +1,87 @@
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
 
+-- Instances:
+
+local Converted = {
+	["_Loader"] = Instance.new("ScreenGui");
+	["_Frame"] = Instance.new("Frame");
+	["_UICorner"] = Instance.new("UICorner");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_ImageLabel"] = Instance.new("ImageLabel");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_TextLabel"] = Instance.new("TextLabel");
+	["_Background"] = Instance.new("Frame");
+	["_Frontground"] = Instance.new("Frame");
+	["_Status"] = Instance.new("TextLabel");
+}
+
+-- Properties:
+
+Converted["_Loader"].Name = "Loader"
+Converted["_Loader"].Parent = game:GetService("CoreGui")
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 3
+Converted["_Frame"].Position = UDim2.new(0.299921572, 0, 0.249653295, 0)
+Converted["_Frame"].Size = UDim2.new(0.400000006, 0, 0.5, 0)
+Converted["_Frame"].Parent = Converted["_Loader"]
+
+Converted["_UICorner"].Parent = Converted["_Frame"]
+
+Converted["_UIStroke"].Parent = Converted["_Frame"]
+
+Converted["_ImageLabel"].Image = "http://www.roblox.com/asset/?id=16323575491"
+Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel"].BackgroundTransparency = 1
+Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel"].BorderSizePixel = 0
+Converted["_ImageLabel"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_ImageLabel"].Parent = Converted["_Frame"]
+
+Converted["_UICorner1"].Parent = Converted["_ImageLabel"]
+
+Converted["_TextLabel"].Font = Enum.Font.SourceSans
+Converted["_TextLabel"].Text = "Loading"
+Converted["_TextLabel"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].TextScaled = true
+Converted["_TextLabel"].TextSize = 14
+Converted["_TextLabel"].TextWrapped = true
+Converted["_TextLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextLabel"].BackgroundTransparency = 1
+Converted["_TextLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextLabel"].BorderSizePixel = 0
+Converted["_TextLabel"].Position = UDim2.new(0.323444933, 0, 0.613730907, 0)
+Converted["_TextLabel"].Size = UDim2.new(0.349999994, 0, 0.200000003, 0)
+Converted["_TextLabel"].Parent = Converted["_Frame"]
+
+Converted["_Background"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Background"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Background"].BorderSizePixel = 0
+Converted["_Background"].Position = UDim2.new(0.00816779863, 0, 0.936199725, 0)
+Converted["_Background"].Size = UDim2.new(0.980000019, 0, 0.0149999997, 0)
+Converted["_Background"].Name = "Background"
+Converted["_Background"].Parent = Converted["_Frame"]
+
+Converted["_Frontground"].BackgroundColor3 = Color3.fromRGB(0, 255, 64.00000378489494)
+Converted["_Frontground"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frontground"].BorderSizePixel = 0
+Converted["_Frontground"].Position = UDim2.new(0.00816779863, 0, 0.936199725, 0)
+Converted["_Frontground"].Size = UDim2.new(0, 0, 0.0149999997, 0)
+Converted["_Frontground"].Name = "Frontground"
+Converted["_Frontground"].Parent = Converted["_Frame"]
+
+Converted["_Status"].Font = Enum.Font.SourceSans
+Converted["_Status"].Text = "Checking Ui"
+Converted["_Status"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Status"].TextScaled = true
+Converted["_Status"].TextSize = 14
+Converted["_Status"].TextWrapped = true
+Converted["_Status"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Status"].BackgroundTransparency = 1
+Converted["_Status"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Status"].BorderSizePixel = 0
+Converted["_Status"].Position = UDim2.new(0.323444933, 0, 0.884188592, 0)
+Converted["_Status"].Size = UDim2.new(0.349999994, 0, 0.0500000007, 0)
+Converted["_Status"].Name = "Status"
+Converted["_Status"].Parent = Converted["_Frame"]
