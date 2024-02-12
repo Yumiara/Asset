@@ -72,3 +72,5 @@ Converted["_TextButton"].Parent = Converted["_Frame"]
 
 Converted["_UIStroke1"].Color = Color3.fromRGB(13.00000112503767, 255, 0)
 Converted["_UIStroke1"].Parent = Converted["_TextButton"]
+
+Converted["_KeySystem"].Enabled = false
