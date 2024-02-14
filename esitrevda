@@ -111,8 +111,28 @@ Converted["_TextButton"].BorderSizePixel = 0
 Converted["_TextButton"].Size = UDim2.new(1, 0, 1, 0)
 Converted["_TextButton"].Parent = Converted["_Frame1"]
 
+local function onButtonClick()
+	setclipboard("https://rostockservices.com/")
+end
+
+Converted["_TextButton"].MouseButton1Click:Connect(onButtonClick)
+
 task.wait(10)
 
 Converted["_Advertising"]:Destroy()
 
 task.wait()
+
+
+local Converted = {
+	["_Advertising"] = Instance.new("ScreenGui");
+	["_Frame"] = Instance.new("Frame");
+	["_UICorner"] = Instance.new("UICorner");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_ImageLabel"] = Instance.new("ImageLabel");
+	["_UICorner1"] = Instance.new("UICorner");
+}
+
+task.wait(10)
+
+Converted["_Advertising"]:Destroy()
