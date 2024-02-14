@@ -40,3 +40,79 @@ Converted["_UICorner1"].Parent = Converted["_ImageLabel"]
 task.wait(10)
 
 Converted["_Advertising"]:Destroy()
+
+task.wait()
+
+-- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
+
+-- Instances:
+
+local Converted = {
+	["_Advertising"] = Instance.new("ScreenGui");
+	["_Frame"] = Instance.new("Frame");
+	["_UICorner"] = Instance.new("UICorner");
+	["_ImageLabel"] = Instance.new("ImageLabel");
+	["_UICorner1"] = Instance.new("UICorner");
+	["_UIStroke"] = Instance.new("UIStroke");
+	["_Frame1"] = Instance.new("Frame");
+	["_UICorner2"] = Instance.new("UICorner");
+	["_UIStroke1"] = Instance.new("UIStroke");
+	["_TextButton"] = Instance.new("TextButton");
+}
+
+-- Properties:
+
+Converted["_Advertising"].Name = "Advertising"
+Converted["_Advertising"].Parent = game:GetService("CoreGui")
+
+Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame"].BorderSizePixel = 3
+Converted["_Frame"].Position = UDim2.new(0.299921572, 0, 0.249653295, 0)
+Converted["_Frame"].Size = UDim2.new(0.400000006, 0, 0.5, 0)
+Converted["_Frame"].Parent = Converted["_Advertising"]
+
+Converted["_UICorner"].Parent = Converted["_Frame"]
+
+Converted["_ImageLabel"].Image = "http://www.roblox.com/asset/?id=16353474902"
+Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_ImageLabel"].BorderSizePixel = 0
+Converted["_ImageLabel"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_ImageLabel"].Parent = Converted["_Frame"]
+
+Converted["_UICorner1"].Parent = Converted["_ImageLabel"]
+
+Converted["_UIStroke"].Thickness = 3
+Converted["_UIStroke"].Parent = Converted["_Frame"]
+
+Converted["_Frame1"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame1"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_Frame1"].BorderSizePixel = 0
+Converted["_Frame1"].Position = UDim2.new(0.299268156, 0, 0.79056865, 0)
+Converted["_Frame1"].Size = UDim2.new(0.100000001, 0, 0.0799999982, 0)
+Converted["_Frame1"].Parent = Converted["_Advertising"]
+
+Converted["_UICorner2"].Parent = Converted["_Frame1"]
+
+Converted["_UIStroke1"].Thickness = 3
+Converted["_UIStroke1"].Parent = Converted["_Frame1"]
+
+Converted["_TextButton"].Font = Enum.Font.SourceSans
+Converted["_TextButton"].Text = "Copy link"
+Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].TextScaled = true
+Converted["_TextButton"].TextSize = 14
+Converted["_TextButton"].TextWrapped = true
+Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Converted["_TextButton"].BackgroundTransparency = 1
+Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+Converted["_TextButton"].BorderSizePixel = 0
+Converted["_TextButton"].Size = UDim2.new(1, 0, 1, 0)
+Converted["_TextButton"].Parent = Converted["_Frame1"]
+
+task.wait(10)
+
+Converted["_Advertising"]:Destroy()
+
+task.wait()
