@@ -6,8 +6,9 @@ local webhookcheck =
    "Kid with shit exploit"
 local device
 uis = game:GetService("UserInputService")
+local UserInputService = game:GetService("UserInputService")
 local function checkPlatform()
-   if UserInputService.TouchEnabled then
+   if game:GetService("UserInputService").TouchEnabled then
       print("User is on a mobile device.")
       device = "Mobile"
    else
