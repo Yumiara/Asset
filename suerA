@@ -1659,12 +1659,13 @@ function UILIB.newTab(name, img)
 		newbtn.MouseButton1Click:Connect(func)
 	end
 
-	function self.newLabel(text)
+	function self.newLabel(text, color)
 		local newLabel = reserved.Label:Clone()
 		newLabel.BackgroundTransparency = 1
 		newLabel.Parent = newTab
 		newLabel.Visible = true
 		newLabel.Title.Text = text
+		newLabel.Title.TextColor3 = color
 
 		return newLabel.Title
 	end
