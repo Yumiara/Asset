@@ -70,5 +70,6 @@ return {
     UDim2.fromOffset, --69
     Color3.new, --70
     ColorSequenceKeypoint.new, --71
-    ColorSequence.new --72
+    ColorSequence.new, --72
+    ipairs --73
 }
