@@ -66,5 +66,9 @@ return {
     Enable, --65
     Fire, --66
     string.find, --67
-    table.find --68
+    table.find, --68
+    UDim2.fromOffset, --69
+    Color3.new, --70
+    ColorSequenceKeypoint.new, --71
+    ColorSequence.new --72
 }
