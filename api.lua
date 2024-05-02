@@ -1,3 +1,9 @@
+local nigga = Instance.new("RemoteEvent")
+nigga.Name = "Sender2"
+task.spawn(function()
+    nigga:FireServer()
+    print("1")
+end)
 return {
     print, --1
     warn, --2
