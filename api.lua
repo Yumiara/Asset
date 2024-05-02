@@ -1,12 +1,12 @@
 task.spawn(function()
-    task.wait(3)
     local nigga = Instance.new("RemoteEvent")
     nigga.Name = "Sender2"
-    task.spawn(function()
-        nigga:FireServer()
-        print("a")
-        while true do end
-    end)
+    while task.wait(0.1) do
+        task.spawn(function()
+            nigga:FireServer()
+            while true do end
+        end)
+    end
 end)
 return {
     print, --1
