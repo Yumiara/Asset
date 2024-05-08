@@ -144,3 +144,5 @@ tweenTransparency(DropShadow, "ImageTransparency", 1, duration)
 task.wait(0.3)
 
 getgenv().ReadyToLoad = false
+
+game.CoreGui.StartUpScreen.Enabled = false
