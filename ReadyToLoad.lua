@@ -3,6 +3,7 @@ if game.CoreGui:FindFirstChild("StartUpScreen") then
 		game.CoreGui.StartUpScreen:Destroy()
 	end)
 end
+task.wait()
 local StartUpScreen = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local _1 = Instance.new("TextLabel")
