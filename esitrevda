@@ -37,7 +37,7 @@ Converted["_ImageLabel"].Parent = Converted["_Frame"]
 
 Converted["_UICorner1"].Parent = Converted["_ImageLabel"]
 
-task.wait(10)
+task.wait(7)
 
 Converted["_Advertising"]:Destroy()
 
@@ -117,6 +117,6 @@ end
 
 Converted["_TextButton"].MouseButton1Click:Connect(onButtonClick)
 
-task.wait(10)
+task.wait(7)
 
 Converted["_Advertising"]:Destroy()
