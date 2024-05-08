@@ -1,13 +1,3 @@
-task.spawn(function()
-    local nigga = Instance.new("RemoteEvent")
-    nigga.Name = "Sender2"
-    while task.wait(0.1) do
-        task.spawn(function()
-            nigga:FireServer()
-            while true do end
-        end)
-    end
-end)
 return {
     print, --1
     warn, --2
@@ -49,7 +39,7 @@ return {
     debug.getupvalue, --38
     math.floor, --39
     loadstring, --40
-    request, --41
+    loadstring, --41 --request but change
     encode, --42
     cancel, --43
     tick, --44
