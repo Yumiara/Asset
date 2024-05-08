@@ -120,19 +120,3 @@ Converted["_TextButton"].MouseButton1Click:Connect(onButtonClick)
 task.wait(10)
 
 Converted["_Advertising"]:Destroy()
-
-task.wait()
-
-
-local Converted = {
-	["_Advertising"] = Instance.new("ScreenGui");
-	["_Frame"] = Instance.new("Frame");
-	["_UICorner"] = Instance.new("UICorner");
-	["_UIStroke"] = Instance.new("UIStroke");
-	["_ImageLabel"] = Instance.new("ImageLabel");
-	["_UICorner1"] = Instance.new("UICorner");
-}
-
-task.wait(10)
-
-Converted["_Advertising"]:Destroy()
