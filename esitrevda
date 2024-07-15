@@ -6,51 +6,6 @@ local Converted = {
 	["_Advertising"] = Instance.new("ScreenGui");
 	["_Frame"] = Instance.new("Frame");
 	["_UICorner"] = Instance.new("UICorner");
-	["_UIStroke"] = Instance.new("UIStroke");
-	["_ImageLabel"] = Instance.new("ImageLabel");
-	["_UICorner1"] = Instance.new("UICorner");
-}
-
--- Properties:
-
-Converted["_Advertising"].Name = "Advertising"
-Converted["_Advertising"].Parent = game:GetService("CoreGui")
-
-Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_Frame"].BorderSizePixel = 3
-Converted["_Frame"].Position = UDim2.new(0.299921572, 0, 0.249653295, 0)
-Converted["_Frame"].Size = UDim2.new(0.400000006, 0, 0.5, 0)
-Converted["_Frame"].Parent = Converted["_Advertising"]
-
-Converted["_UICorner"].Parent = Converted["_Frame"]
-
-Converted["_UIStroke"].Thickness = 3
-Converted["_UIStroke"].Parent = Converted["_Frame"]
-
-Converted["_ImageLabel"].Image = "http://www.roblox.com/asset/?id=16323382310"
-Converted["_ImageLabel"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Converted["_ImageLabel"].BorderColor3 = Color3.fromRGB(0, 0, 0)
-Converted["_ImageLabel"].BorderSizePixel = 0
-Converted["_ImageLabel"].Size = UDim2.new(1, 0, 1, 0)
-Converted["_ImageLabel"].Parent = Converted["_Frame"]
-
-Converted["_UICorner1"].Parent = Converted["_ImageLabel"]
-
-task.wait(7)
-
-Converted["_Advertising"]:Destroy()
-
-task.wait()
-
--- Generated using RoadToGlory's Converter v1.1 (RoadToGlory#9879)
-
--- Instances:
-
-local Converted = {
-	["_Advertising"] = Instance.new("ScreenGui");
-	["_Frame"] = Instance.new("Frame");
-	["_UICorner"] = Instance.new("UICorner");
 	["_ImageLabel"] = Instance.new("ImageLabel");
 	["_UICorner1"] = Instance.new("UICorner");
 	["_UIStroke"] = Instance.new("UIStroke");
