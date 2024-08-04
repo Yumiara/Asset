@@ -166,23 +166,16 @@ TextButton2_2.TextScaled = true
 TextButton2_2.TextSize = 14.000
 TextButton2_2.TextWrapped = true
 
--- Scripts:
-
-local function CIVCNU_fake_script() -- TextButton2.LocalScript 
-	local script = Instance.new('LocalScript', TextButton2)
-
-	game.CoreGui.KeySystem.Frame.TextButton2.MouseButton1Click:Connect(function()
-		pcall(function()
-			game.CoreGui.KeySystem.Frame.Visible = false
-			game.CoreGui.KeySystem.Frame2.Visible = true	
-		end)
+game.CoreGui.KeySystem.Frame.TextButton2.MouseButton1Click:Connect(function()
+	pcall(function()
+		game.CoreGui.KeySystem.Frame.Visible = false
+		game.CoreGui.KeySystem.Frame2.Visible = true	
 	end)
-	
-	game.CoreGui.KeySystem.Frame2.TextButton2.MouseButton1Click:Connect(function()
-		pcall(function()
-			game.CoreGui.KeySystem.Frame.Visible = true
-			game.CoreGui.KeySystem.Frame2.Visible = false	
-		end)
+end)
+
+game.CoreGui.KeySystem.Frame2.TextButton2.MouseButton1Click:Connect(function()
+	pcall(function()
+		game.CoreGui.KeySystem.Frame.Visible = true
+		game.CoreGui.KeySystem.Frame2.Visible = false	
 	end)
-end
-coroutine.wrap(CIVCNU_fake_script)()
+end)
