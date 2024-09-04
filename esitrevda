@@ -72,6 +72,6 @@ end
 
 Converted["_TextButton"].MouseButton1Click:Connect(onButtonClick)
 
-task.wait(7)
+task.wait(5)
 
 Converted["_Advertising"]:Destroy()
